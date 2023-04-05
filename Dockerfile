@@ -1,2 +1,5 @@
-FROM hshar/weapp
-ADD . /var/www/html
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
+
+
+
